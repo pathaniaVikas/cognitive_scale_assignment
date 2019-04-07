@@ -18,10 +18,13 @@ Input structure for graph:
 }  
 
 For updating grid just pass 
-{
-  "edges": [
-  {...}
-}
+{  
+  "edges": [  
+  {...}  
+  ]  
+}  
+
+
 ** if there are two edges with same start_vertex and end_vertex, then only latest edge will prevail in graph.
 N - number of vertices
 
