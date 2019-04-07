@@ -17,8 +17,17 @@ Input structure for graph:
   ]  
 }  
 
+For updating grid just pass 
+{  
+  "edges": [  
+  {...}  
+  ]  
+}  
+
+
 ** if there are two edges with same start_vertex and end_vertex, then only latest edge will prevail in graph.
 N - number of vertices
+1 <= u, v <= no_of_vertices 
 
 Validation conditions based on requirements:
 1. There should be atleast two points in graph.(N>=2)
